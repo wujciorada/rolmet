@@ -12,12 +12,12 @@ const GallerySection = () => {
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
 
   const images: GalleryImage[] = [
-    { id: 1, src: "/zdjecia/silnik1.jpeg", alt: "silnik hydrauliczny", category: "silnik" },
-    { id: 2, src: "/zdjecia/czesci.jpeg", alt: "części", category: "części" },
-    { id: 3, src: "/zdjecia/rozebrane3.webp", alt: "pompa części", category: "pompa części" },
-    { id: 4, src: "/zdjecia/pompa1.jpeg", alt: "pompa", category: "pompa hydrauliczna" },
-    { id: 5, src: "/zdjecia/doladowcza.jpeg", alt: "doładowcza", category: "doładowcze" },
-    { id: 6, src: "/zdjecia/pompa2.jpeg", alt: "pompa", category: "pompa hydrauliczna" },
+    { id: 1, src: "../zdjecia/silnik1.jpeg", alt: "silnik hydrauliczny", category: "silnik" },
+    { id: 2, src: "../zdjecia/czesci.jpeg", alt: "części", category: "części" },
+    { id: 3, src: "../zdjecia/rozebrane3.webp", alt: "pompa części", category: "pompa części" },
+    { id: 4, src: "../zdjecia/pompa1.jpeg", alt: "pompa", category: "pompa hydrauliczna" },
+    { id: 5, src: "../zdjecia/doladowcza.jpeg", alt: "doładowcza", category: "doładowcze" },
+    { id: 6, src: "../zdjecia/pompa2.jpeg", alt: "pompa", category: "pompa hydrauliczna" },
   ];
 
   return (
