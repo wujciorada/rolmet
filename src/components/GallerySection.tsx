@@ -12,12 +12,12 @@ const GallerySection = () => {
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
 
   const images: GalleryImage[] = [
-    { id: 1, src: "../../public/silnik1.jpeg", alt: "silnik hydrauliczny", category: "silnik" },
-    { id: 2, src: "../../public/czesci.jpeg", alt: "części", category: "części" },
-    { id: 3, src: "../../public/rozebrane3.webp", alt: "pompa części", category: "pompa części" },
-    { id: 4, src: "../../public/pompa1.jpeg", alt: "pompa", category: "pompa hydrauliczna" },
-    { id: 5, src: "../../public/doladowcza.jpeg", alt: "doładowcza", category: "doładowcze" },
-    { id: 6, src: "../../public/pompa2.jpeg", alt: "pompa", category: "pompa hydrauliczna" },
+    { id: 1, src: "/silnik1.jpeg", alt: "silnik hydrauliczny", category: "silnik" },
+    { id: 2, src: "/czesci.jpeg", alt: "części", category: "części" },
+    { id: 3, src: "/rozebrane3.webp", alt: "pompa części", category: "pompa części" },
+    { id: 4, src: "/pompa1.jpeg", alt: "pompa", category: "pompa hydrauliczna" },
+    { id: 5, src: "/doladowcza.jpeg", alt: "doładowcza", category: "doładowcze" },
+    { id: 6, src: "/pompa2.jpeg", alt: "pompa", category: "pompa hydrauliczna" },
   ];
 
   return (
