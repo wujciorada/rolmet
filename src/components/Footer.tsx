@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-			<img src="/zdjecia/rollogo.png" className="w-25 h-20 object-cover"/>
+			<img src="../../public/rollogo.png" className="w-25 h-20 object-cover"/>
             </div>
             <p className="text-muted-foreground mb-4">
               Profesjonalna regeneracja i naprawa hydrauliki siłowej. 
