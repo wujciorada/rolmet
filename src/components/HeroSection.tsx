@@ -13,7 +13,7 @@ const HeroSection = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="../../public/rolmetfotogpt2.webp"
+          src="/rolmetfotogpt2.webp"
           alt="Regeneracja hydrauliki" 
           className="w-full h-full object-cover"
         />
@@ -24,7 +24,7 @@ const HeroSection = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
 	  <div className="flex justify-center mb-6">
-		<img src="../../public/rollogo.png" alt="Rolmet logo" className="w-64 md:w-96 object-contain"/>
+		<img src="/rollogo.png" alt="Rolmet logo" className="w-64 md:w-96 object-contain"/>
 		</div>
         <div className="max-w-3xl">
           {/* Badge */}

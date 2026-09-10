@@ -27,7 +27,7 @@ const Navbar = () => {
           <a href="#home" 
             onClick={(e) => { e.preventDefault(); scrollToSection("#home"); }}
             className="flex items-center gap-2">
-            <img src="../../public/rollogo.png" className="w-25 h-20 object-cover"/>
+            <img src="/rollogo.png" className="w-25 h-20 object-cover"/>
           </a>
 
           {/* Desktop Navigation */}
